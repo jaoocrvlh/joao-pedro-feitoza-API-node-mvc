@@ -1,10 +1,10 @@
 # API REST com Node.js, Express e MySQL — Arquitetura MVC
 
-**Aluno:** João Pedro Carvalho Feitoza
-**Turma:** (preencha sua turma)
-**Disciplina:** Programação Web III (PW3) — Atividade Prática 02
+João Pedro Carvalho Feitoza
+3ndn
+PW3
 
-## Arquitetura em camadas (MVC)
+Arquitetura MVC 
 
 - **config/**: conexão com o MySQL (pool do `mysql2`) e leitura das variáveis de ambiente com `dotenv`.
 - **models/**: camada de dados. Único lugar com SQL (`SELECT`, `INSERT`, `UPDATE`, `DELETE`), sempre com queries parametrizadas (`?`).
